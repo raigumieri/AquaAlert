@@ -1,0 +1,43 @@
+@import './_variavel';
+
+.login{
+    background: $fundo-texto;
+    color: $cor-texto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    border-style:inset;
+    border-radius: 15px;
+    padding: 5%;
+    margin-left: 33%;
+    margin-top: 3%;
+
+    .nome_all{
+        margin-bottom: 5%;
+        
+        input{
+            margin-left: 20px;
+            
+        }
+    }
+
+    .email_all{
+        margin-bottom: 5%;
+
+        input{
+            margin-left: 20px;
+            
+        }
+    }
+
+    textarea{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .enviar:hover{
+        background-color:  black;
+        color: $cor-texto;
+    }
+}
+   

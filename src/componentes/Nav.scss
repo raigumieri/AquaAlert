@@ -1,0 +1,42 @@
+@import './_variavel';
+
+body{
+    background-color: rgb(0, 81, 255);
+  
+    
+    
+    header{
+        background: $fundo-texto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-style:groove;
+        border-radius: 20px;
+        border-width: 5px;
+        border-color: whitesmoke;
+        
+        h1{
+            color: $cor-texto;
+            font-size: 40px;
+            margin-left: 2%;
+        }
+
+        .menu_nav{
+            margin-right: 2%;
+
+            
+            .rotas{
+                margin-right: 15px;
+                text-decoration: none;
+                color: $cor-texto;
+            }
+
+            .rotas:hover{
+                background-color: blue;
+                padding: 15px;
+                border-radius: 10px;
+            }
+        }
+
+    }
+}  

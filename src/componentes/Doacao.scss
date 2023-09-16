@@ -1,0 +1,47 @@
+@import './_variavel';
+
+aside{
+    display: grid;
+    grid-template-columns: 25%;
+    justify-content: center;
+    color: $cor-texto;
+
+    .doacao{ 
+        max-width: 750px;
+        max-height: 700px;
+        background-color: $fundo-texto;
+        margin: 10px;
+        border-radius: 20px;
+        border-style: inset;
+        padding: 40px;
+        
+
+        .doacao h1{
+            text-align: center;
+        }
+
+        .doacao p{
+            margin: 20px;
+        }
+            
+        .img{
+            max-width: 50px;
+            padding: 5px;
+        }
+
+        .contatos{
+            margin-left: 2%;
+            
+        }
+
+        .contato{
+            padding: 4%;
+        }
+
+        .redes_sociais{
+            display: grid;
+            grid-template-columns: 60px 260px;
+            
+        }
+    }
+}

@@ -1,0 +1,165 @@
+@import './_variavel';
+
+*{
+    font-family: 'Courier New', Courier, monospace
+}
+main{
+    display: flex;
+    flex-direction: row;
+    color: $cor-texto;
+
+    .abertura{
+        width: 93%;
+        height: 46%;
+        background-color: $fundo-texto;
+        margin: 10px;
+        border-radius: 20px;
+        border-style: inset;
+    }
+
+    .abertura p{
+        padding: 20px;
+    }
+
+    .abertura h1{
+        text-align: center;
+    }
+
+    .problema{
+        width: 93%;
+        height: 47%;
+        background-color: $fundo-texto;
+        margin: 10px;
+        border-radius: 20px;
+        border-style: inset;
+        margin-top: 20px;
+    }
+
+    .problema p{
+        padding: 20px;
+    }
+
+    .problema h1{
+        text-align: center;
+    }
+
+
+    .contexto{
+        width: 95%;
+        height: 96%;
+        background-color: $fundo-texto;
+        border-style: inset;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .contexto h1{
+        text-align: center;  
+    }
+    
+    .contexto p{
+        padding: 20px;   
+    }
+
+
+
+    .caracteristicas{
+        width: 95%;
+        height: 96%;
+        background-color: $fundo-texto;
+        border-style: inset;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .caracteristicas h1{
+        text-align: center;
+    }
+
+    .caracteristicas img{
+        height: 450px;
+        margin-left: 40px;
+    }
+
+    .caracteristicas ul{
+        margin-top: 60px;
+    }
+
+}
+
+.atualidade{
+    display: flex;
+    flex-direction: row;
+    color: $cor-texto;
+    margin-bottom: 1%;
+
+    .problemas_dos_atuais{
+        width: 909px;
+        height: 320px;
+        background-color: $fundo-texto;
+        border-style: inset;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+    .problemas_dos_atuais h1{
+        text-align: center;
+    }
+    
+    .problemas_dos_atuais p{
+        padding: 20px;
+    }
+    
+    
+    .materia_prima{
+        width: 96%;
+        height: 93%;
+        background-color: $fundo-texto;
+        border-style: inset;
+        border-radius: 20px;
+        margin: 10px;
+    }
+    
+    .materia_prima h1{
+        text-align: center;
+    }
+    
+    .materia_prima p{
+        padding: 20px;
+    }
+}
+
+article{
+    display: flex;
+    color: $cor-texto;
+    margin-bottom: -13%;
+
+    .diferencial_empreendedor{
+        width: 96%;
+        height: 85%;
+        background-color: $fundo-texto;
+        border-style: inset;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 1%;
+        
+        }
+
+    .diferencial_empreendedor h1{
+        text-align: center;
+    }
+
+    .diferencial_empreendedor h3{
+        text-align: center;
+    }
+
+
+    .diferencial_empreendedor p{
+        padding: 15px;
+        text-align: center;
+    }
+
+}
+
+
+
