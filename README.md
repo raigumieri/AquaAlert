@@ -1,4 +1,4 @@
-<h1> Sprint 3 - Front-End</h1>
+<h1 align="center"> Sprint 3 - Front-End</h1>
 
 <h3> Integrantes do grupo: </h3>
 
